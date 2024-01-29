@@ -1,0 +1,58 @@
+ 
+<html>
+    <head>
+      <title>Siblings Identification</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+  
+     <link rel="stylesheet" href="style.css">
+    
+    </head>
+  
+    <body style="background-color: palevioletred;">
+    <div class="container">
+      
+      
+  <h1 class="btn btn-default heading" >Siblings Identification</h1>
+        <br><br>
+  
+        <p style="font-size: 22px;">This Model Can Identify The following parts of your family </p>
+  
+        <b>
+          <hr>
+          Father
+          <hr>
+          Mother
+          <hr>
+          Sister
+          <hr>
+          Me
+          <hr>
+        </b>
+        <label>Webcam View - </label>
+  
+        <div id="webcam" class="hi" ></div>
+        
+  
+        <br><br>
+        <div id="picture" class="hi" ></div>
+        <br><br>
+  <button class="btn btn-warning" onclick="take()">Take Picture</button>
+        <br><br>
+  <button class="btn btn-danger" onclick="identify()">Identify Image</button>
+        <br><br>
+  
+        <p style="font-size: 22px;">Object : <span id="object_name"></span> </p>
+        <p style="font-size: 22px;">Accuracy : <span id="accuracy_level"></span> </p>
+    
+  
+    </div>
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
+  
